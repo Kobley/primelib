@@ -3,23 +3,23 @@
 
 ## usage
 
-```cpp
-#include <iostream>
-#include "primelib.h"
-
-int main() {
-  primelib* pl = new primelib(); //initialize library.
-  
-  pl->atkins(n); //populate set with primes. using sieve of atkins.
-
-  //output primes
-  for (uint64_t prime : pl->oprimes) {
-    std::cout << prime << std::endl;
-  }
-
-  return 0;
-}
-```
+> ```cpp
+> #include <iostream>
+> #include "primelib.h"
+> 
+> int main() {
+>   primelib* pl = new primelib(); //initialize library.
+>   
+>   pl->atkins(n); //populate set with primes. using sieve of atkins.
+> 
+>   //output primes
+>   for (uint64_t prime : pl->oprimes) {
+>     std::cout << prime << std::endl;
+>   }
+> 
+>   return 0;
+> }
+> ```
 
 ## showcase
 > ![bruns_constant](https://github.com/Kobley/primelib/blob/main/media/b2.gif)
