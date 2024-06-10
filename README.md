@@ -10,6 +10,7 @@
 > int main() {
 >   primelib* pl = new primelib(); //initialize library.
 >   
+>   uint64_t n = 100000000ULL //100m, small test.
 >   pl->atkins(n); //populate set with primes. using sieve of atkins.
 > 
 >   //output primes
