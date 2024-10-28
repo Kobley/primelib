@@ -1,6 +1,9 @@
 # primelib
  C++ library focused on prime numbers and number theory.
 
+> [!WARNING]  
+> I WILL BE UPDATING SOON, AS OF NOW EVERYTHING HERE IS PRACTICALLY TESTING AND DISCOVERY!
+
 ## usage
 
 > ```cpp
